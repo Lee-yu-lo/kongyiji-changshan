@@ -1,0 +1,424 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>《孔乙己的长衫》10 分钟 AI 长片</title>
+<meta name="description" content="《孔乙己的长衫》AI 长片制作剧本集：30 秒 AI 漫剧 / 4 分钟视频号 / 10 分钟 AI 长片，可直接进分镜与生视频流程。">
+<style>
+:root{--bg:#f7f6f3;--card:#fffdfa;--ink:#23211d;--muted:#6f6a62;--line:#e3ded4;--accent:#8a5a3b;--accent2:#3b5d6b;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Songti SC","Source Han Serif SC","Noto Serif CJK SC",Georgia,serif;line-height:1.85;font-size:16.5px;}
+.topbar{position:sticky;top:0;z-index:9;background:rgba(247,246,243,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
+.topbar-inner{max-width:920px;margin:0 auto;padding:10px 28px;display:flex;gap:20px;align-items:center;font-size:14px;flex-wrap:wrap;}
+.topbar .brand{font-weight:700;color:var(--ink);letter-spacing:.02em;margin-right:6px;}
+.topbar a{color:var(--muted);text-decoration:none;padding:3px 0;border-bottom:2px solid transparent;}
+.topbar a.on{color:var(--accent);border-bottom-color:var(--accent);font-weight:700;}
+.topbar a:hover{color:var(--ink);}
+.topbar .sp{flex:1}
+.topbar .tool{color:var(--muted);cursor:pointer;}
+.wrap{max-width:920px;margin:0 auto;padding:44px 28px 120px;}
+h1{font-size:2.15rem;line-height:1.35;margin:0 0 6px;letter-spacing:.02em;border-bottom:2px solid var(--accent);padding-bottom:18px;}
+h2{font-size:1.5rem;margin:64px 0 18px;padding-left:14px;border-left:5px solid var(--accent);letter-spacing:.01em;}
+h3{font-size:1.2rem;margin:38px 0 12px;color:#2f2b26;}
+h4{font-size:1.05rem;margin:26px 0 8px;color:var(--accent2);}
+p{margin:14px 0;text-align:justify;}
+strong{color:#1d1b18;font-weight:700;}
+hr{border:0;border-top:1px dashed var(--line);margin:48px 0;}
+.tw{overflow-x:auto;margin:22px 0;}
+table{width:100%;border-collapse:collapse;font-size:14.6px;background:var(--card);}
+th{background:#efeae0;text-align:left;padding:11px 13px;border:1px solid var(--line);font-weight:700;white-space:nowrap;}
+td{padding:11px 13px;border:1px solid var(--line);vertical-align:top;}
+blockquote{margin:20px 0;padding:14px 20px;background:var(--card);border-left:4px solid var(--accent2);color:#3a3630;font-size:15.6px;border-radius:0 4px 4px 0;}
+ul,ol{padding-left:26px;margin:14px 0;}
+li{margin:7px 0;}
+code{font-family:"SF Mono",Menlo,monospace;font-size:12.6px;background:#efeae0;padding:2px 6px;border-radius:3px;color:#5c4a3a;}
+pre{background:#2b2823;color:#e8e3d9;padding:20px 22px;border-radius:8px;overflow-x:auto;line-height:1.7;font-size:13.2px;}
+pre code{background:none;color:inherit;padding:0;font-size:13.2px;}
+.footer{max-width:920px;margin:0 auto;padding:0 28px 60px;color:var(--muted);font-size:13.4px;border-top:1px dashed var(--line);padding-top:22px;}
+
+/* 首页 */
+.hero{max-width:920px;margin:0 auto;padding:64px 28px 8px;}
+.hero h1{border:0;padding:0;font-size:2.6rem;margin-bottom:14px;}
+.hero .lede{font-size:1.15rem;color:#4a453e;max-width:640px;}
+.cards{max-width:920px;margin:0 auto;padding:28px 28px 40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:20px;}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:24px 24px 20px;text-decoration:none;color:inherit;display:block;transition:.18s;position:relative;overflow:hidden;}
+.card:hover{border-color:var(--accent);transform:translateY(-3px);box-shadow:0 8px 24px rgba(60,50,40,.10);}
+.card .tag{display:inline-block;font-size:12px;letter-spacing:.08em;color:#fff;background:var(--accent);padding:3px 10px;border-radius:20px;margin-bottom:12px;}
+.card.alt .tag{background:var(--accent2);}
+.card.alt2 .tag{background:#6b6a5c;}
+.card h3{margin:0 0 6px;font-size:1.28rem;color:var(--ink);}
+.card .meta{color:var(--muted);font-size:13.6px;margin:0 0 14px;}
+.card ul{padding-left:18px;margin:10px 0 0;font-size:14.4px;color:#4a453e;}
+.card li{margin:5px 0;}
+.card .go{margin-top:16px;font-size:14px;color:var(--accent);font-weight:700;}
+.blocks{max-width:920px;margin:0 auto;padding:8px 28px 60px;}
+.blocks h2{margin-top:44px;}
+.note{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);padding:16px 20px;border-radius:0 6px 6px 0;font-size:14.6px;margin:28px 0;}
+@media(max-width:640px){
+  .wrap{padding:28px 18px 80px;font-size:15.6px}
+  h1{font-size:1.7rem}
+  .hero{padding:36px 18px 4px}
+  .hero h1{font-size:1.95rem}
+  .cards{padding:20px 18px 28px}
+  .blocks{padding:8px 18px 48px}
+  .topbar-inner{padding:8px 18px;gap:14px;font-size:13px}
+}
+@media print{body{background:#fff}.topbar{display:none}}
+</style></head>
+<body><div class="topbar"><div class="topbar-inner"><span class="brand">孔乙己的长衫</span><a href="index.html">首页</a><a href="script-4min.html">4 分钟 · 视频号</a><a href="script-30s.html">30 秒 · AI 漫剧</a><a class="on" href="script-10min.html">10 分钟 · AI 长片</a><span class="sp"></span><a class="tool" href="javascript:window.print()">打印 / 存 PDF</a></div></div><div class="wrap"><h1>《孔乙己的长衫》10 分钟 AI 长片</h1>
+<h2>优化后完整制作剧本 v1.1（可直接进分镜 / 生视频）</h2>
+<blockquote>片长 10:00 ｜ 画幅 2.39:1 全片统一（屏幕流内嵌 9:16 手机画幅）<br>画风：写实感 AI 漫剧，冬日午后低饱和，暖灰 + 旧纸黄<br>结构：现实层 / 课堂层 / 穿越层 三段交替，课堂层包夹首尾<br>全片<strong>无文学旁白</strong>。所有判断由画面、字幕条与人物动作带出。</blockquote>
+<hr>
+<h1>0 · 定稿前提（不可动清单）</h1>
+<div class="tw"><table><thead><tr><th>项</th><th>锁定内容</th></tr></thead><tbody><tr><td>主题</td><td>《孔乙己》从来没活在某个朝代。他活在每一代人都觉得"书白读了"的那个下午。</td></tr><tr><td>三层结构</td><td>现实层（她查到的、听到的、交出去的）／课堂层（她被布置的、她最后写下的）／穿越层（她生成的、与她对峙的）</td></tr><tr><td>主角脊骨</td><td>林晚，戏文专业停招，被布置写一篇无法用套话糊弄的作业</td></tr><tr><td>事实边界</td><td>教材＝"调整为选修/自读篇目、课时与篇目配比变化"，<strong>不是被删</strong>；专业撤销＝"学校自主优化专业结构、报省教育厅备案"，<strong>不是教育部点名砍</strong></td></tr><tr><td>名人素材</td><td>余华、莫言<strong>只做字幕采样</strong>，无肖像、无人声克隆、不参与剧情，来源一律标注"网络流传转述"</td></tr><tr><td>课堂层命门</td><td>陈老师说"孔乙己在那个时代，不值得那么被精心谋杀"；林晚<strong>仍坚持</strong>写成"临死晕乎看见自己中第"</td></tr><tr><td>穿越层金句</td><td>孔乙己——<strong>"铁匣子若会写文章，还要孔乙己作甚。"</strong></td></tr><tr><td>讽刺落点</td><td>长衫 → PPT 模板 / GPT 提纲 / API Key / 水课毕业证。<strong>不落成说教</strong></td></tr><tr><td>禁止</td><td>不新增角色、不新增分支、不写成爽文、不把孔乙己写成成功学人物、不写"他觉得/她心想"</td></tr></tbody></table></div>
+<p><strong>贯穿道具</strong>：一件洗得发白的长衫 —— 孔乙己的长衫、林晚的羽绒服、结尾挂在椅子上的那件，同一个剪影。 <strong>贯穿声音</strong>：键盘声。片头第一声起，片尾最后一声停，所有层间转场用它缝合。</p>
+<hr>
+<h1>1 · 结构总表（层时长分配 · 运行顺序）</h1>
+<div class="tw"><table><thead><tr><th>时间码</th><th>场</th><th>层</th><th>功能</th><th>时长</th></tr></thead><tbody><tr><td>0:00–0:45</td><td>SC01</td><td>现实层-A</td><td>她习惯性把思考外包；停招公告入画</td><td>45″</td></tr><tr><td>0:45–1:30</td><td>SC02</td><td>现实层-A</td><td>屏幕流：她开始找答案，资料很多，答案没有</td><td>45″</td></tr><tr><td>1:30–2:40</td><td>SC03</td><td>课堂层-A</td><td><strong>激励事件</strong>：一页纸 + "不值得那么被精心谋杀"</td><td>70″</td></tr><tr><td>2:40–3:50</td><td>SC04</td><td>现实层-B</td><td><strong>中点</strong>：采样蒙太奇，大人的答案全是回避</td><td>70″</td></tr><tr><td>3:50–4:10</td><td>SC05</td><td>穿越层</td><td>生成：先出褶皱，再出手，再出脸</td><td>20″</td></tr><tr><td>4:10–5:10</td><td>SC06</td><td>穿越层</td><td>对撞：水课 / 毕业证 / 提示词 / 三件长衫</td><td>60″</td></tr><tr><td>5:10–6:10</td><td>SC07</td><td>穿越层</td><td><strong>转折</strong>：递长衫、反问、访问者变被告</td><td>60″</td></tr><tr><td>6:10–6:30</td><td>SC08</td><td>穿越层</td><td>崩解：生成窗口掉帧，最后一句</td><td>20″</td></tr><tr><td>6:30–7:02</td><td>SC09</td><td>现实层-C</td><td>公告栏：自己的专业，别人在拍照</td><td>32″</td></tr><tr><td>7:02–7:30</td><td>SC10</td><td>现实层-C</td><td><strong>灵魂黑夜</strong>：她把 AI 写的那页交了上去</td><td>28″</td></tr><tr><td>7:30–8:00</td><td>SC11</td><td>课堂层-B</td><td>删稿：删到空白</td><td>30″</td></tr><tr><td>8:00–8:40</td><td>SC12</td><td>课堂层-B</td><td>自己写：写"临死晕乎看见自己中第"，且坚持</td><td>40″</td></tr><tr><td>8:40–9:00</td><td>SC13</td><td>课堂层-B</td><td>从门缝塞进去</td><td>20″</td></tr><tr><td>9:00–9:15</td><td>SC14</td><td>课堂层-B</td><td>陈老师读完，没说话</td><td>15″</td></tr><tr><td>9:15–9:37</td><td>SC15</td><td>片尾落点</td><td>回到"书白读了的那天下午"</td><td>22″</td></tr><tr><td>9:37–10:00</td><td>SC16</td><td>片尾落点</td><td>黑场金句 + 循环未关闭</td><td>23″</td></tr></tbody></table></div>
+<h3>层时长合计</h3>
+<div class="tw"><table><thead><tr><th>层</th><th>含场次</th><th>时长</th><th>占比</th></tr></thead><tbody><tr><td><strong>现实层</strong></td><td>SC01 · SC02 · SC04 · SC09 · SC10</td><td><strong>3′40″</strong></td><td>36.7%</td></tr><tr><td><strong>课堂层</strong></td><td>SC03 · SC11 · SC12 · SC13 · SC14</td><td><strong>2′55″</strong></td><td>29.2%</td></tr><tr><td><strong>穿越层</strong></td><td>SC05 · SC06 · SC07 · SC08</td><td><strong>2′40″</strong></td><td>26.7%</td></tr><tr><td><strong>片尾落点</strong></td><td>SC15 · SC16</td><td><strong>0′45″</strong></td><td>7.5%</td></tr><tr><td>合计</td><td>16 场</td><td><strong>10′00″</strong></td><td>100%</td></tr></tbody></table></div>
+<blockquote>现实层分三段插入，是因为它承担"环境压力"；课堂层拆成首尾两截，是因为它承担"A 故事"——作业在哪儿布置，就得在哪儿交。</blockquote>
+<hr>
+<h2>1.5 · 场头元数据总表（一屏查全 · 进分镜前先过一遍）</h2>
+<div class="tw"><table><thead><tr><th>场号</th><th>层</th><th>内/外</th><th>时间</th><th>地点</th><th>画面形式</th><th>出镜人物</th><th>画外音 VO</th><th>字幕层</th></tr></thead><tbody><tr><td>SC01</td><td>现实-A</td><td>内</td><td>冬日午后</td><td>宿舍</td><td>AI 漫剧（有实拍条件则实拍优先）</td><td>林晚；室友（半个背影）</td><td>无</td><td><strong>无</strong>（"停止招生"只以画面呈现，不解说）</td></tr><tr><td>SC02</td><td>现实-A</td><td>内</td><td>接续 · 午后</td><td>宿舍（屏幕为主体）</td><td>AI 生成 + UI 合成（屏幕录制质感）</td><td>林晚</td><td>小舟、阿哲（群聊语音转文字）；技术课老师（过载失真）</td><td><strong>③④ 为事实字幕条</strong>，含口径小字，<strong>不可剪</strong></td></tr><tr><td>SC03</td><td>课堂-A</td><td>内</td><td>下午</td><td>写作课教室</td><td>AI 漫剧（教室空镜实拍 + 人物生成）</td><td>陈老师（手/侧身/背影）、林晚、同学（后脑勺）</td><td>无</td><td><strong>无</strong>（台词即字幕）</td></tr><tr><td>SC04</td><td>现实-B</td><td>内</td><td>夜</td><td>宿舍</td><td><strong>采访拼贴 + 字幕卡 + AI 生成</strong></td><td>林晚（余华/莫言不出镜不出现声）</td><td>街采人声（画面不可辨）</td><td>采样 01/02 黑底白字卡（含来源 + "未经逐字核实"）；03 底部常驻小字</td></tr><tr><td>SC05</td><td>穿越</td><td>内 · 虚拟生成空间</td><td>无时间</td><td>她的生成窗口（纯黑虚空）</td><td>AI 生成</td><td>孔乙己；林晚（屏内反射）</td><td>无</td><td>无</td></tr><tr><td>SC06</td><td>穿越</td><td>内 · 虚拟生成空间</td><td>接续</td><td>同 SC05（+ 一把空椅子）</td><td>AI 生成</td><td>孔乙己；林晚（手部入画）</td><td><strong>林晚（画外提问）</strong>；小舟（手机外放语音）</td><td><strong>无</strong>（金句不打字幕，让人物说出来）</td></tr><tr><td>SC07</td><td>穿越</td><td>内 · 虚拟生成空间</td><td>接续</td><td>同 SC06</td><td>AI 生成</td><td>孔乙己；林晚（手部入画）</td><td><strong>林晚（画外作答）</strong></td><td>无</td></tr><tr><td>SC08</td><td>穿越</td><td>内 · 虚拟生成空间</td><td>接续</td><td>同 SC06（窗口故障化）</td><td>AI 生成 + 数字故障处理</td><td>孔乙己；林晚（手）</td><td>孔乙己（声音断续）</td><td>无</td></tr><tr><td>SC09</td><td>现实-C</td><td>内</td><td>白天</td><td>教学楼大厅 · 公告栏前</td><td>AI 漫剧</td><td>林晚、两名新生（背影 / 半个侧脸）</td><td>无</td><td>文件小字"学校自主优化专业结构，报省教育厅备案"停留 ≥3 秒</td></tr><tr><td>SC10</td><td>现实-C</td><td>内</td><td>课间</td><td>教室讲台</td><td>AI 漫剧</td><td>林晚（手 / 背影）</td><td>无</td><td>无</td></tr><tr><td>SC11</td><td>课堂-B</td><td>内</td><td>傍晚</td><td>宿舍</td><td>AI 漫剧</td><td>林晚</td><td>无</td><td>无</td></tr><tr><td>SC12</td><td>课堂-B</td><td>内</td><td>夜</td><td>宿舍</td><td>AI 漫剧</td><td>林晚；小舟（仅手机消息）</td><td>林晚（打字念出，半画外）</td><td>无</td></tr><tr><td>SC13</td><td>课堂-B</td><td>内</td><td>夜</td><td>办公楼走廊 · 办公室门口</td><td>AI 漫剧</td><td>林晚（背影）</td><td>无</td><td>无</td></tr><tr><td>SC14</td><td>课堂-B</td><td>内</td><td>夜</td><td>陈老师办公室</td><td>AI 漫剧（只露手与半张脸）</td><td>陈老师</td><td>无</td><td>无</td></tr><tr><td>SC15</td><td>片尾</td><td>外 / 内 混合</td><td>冬日午后</td><td>咸亨门口 · 课桌 · 椅</td><td><strong>实拍空镜优先</strong>（成本最低效果最好），AI 生成兜底</td><td><strong>无。一个人都没有</strong></td><td>无</td><td><strong>无。一个字都不打</strong></td></tr><tr><td>SC16</td><td>片尾</td><td>—</td><td>接续</td><td>黑场 / 手机屏</td><td>黑场字幕 + UI 合成</td><td>一只手（无脸）</td><td>无</td><td>金句两行白字；系统提示为<strong>画面内文字</strong>，非字幕层</td></tr></tbody></table></div>
+<blockquote><strong>关于"内 · 虚拟生成空间"</strong>：SC05–SC08 的"内"指<strong>生成窗口内的空间</strong>，不是实拍场地。四场共用同一套视觉签名（纯黑虚空 + 单一顶光 + 边缘扫描线），只出现孔乙己一人、一把椅子、一件长衫。这是为 AI 人物一致性刻意压出来的设计，拍摄/生成时<strong>不要为了好看给他加背景、加道具、换衣服</strong>。</blockquote>
+<hr>
+<h1>2 · 层语法：视觉签名 + 声音桥（跨层切换规则）</h1>
+<p>每跨一层，桥 = <strong>上一层的尾音 + 下一层的第一声</strong>。尾音不切断，让它压过切点 0.5 秒。</p>
+<div class="tw"><table><thead><tr><th>层</th><th>视觉签名（一眼可辨）</th><th>进入的第一声</th><th>退出的尾音</th></tr></thead><tbody><tr><td><strong>现实层</strong></td><td>低饱和暖灰 + 旧纸黄；屏幕冷蓝光从下方打脸；画面里永远有一件印刷物（公告 / 文档 / 课本）；轻微手持呼吸感；字幕条统一白底黑字、无衬线、左上角</td><td>环境先起（空调低频 / 走廊脚步 / 短视频外放），键盘声最后一个进来</td><td>一声回车"嗒"，随后环境被抽空 0.5 秒</td></tr><tr><td><strong>课堂层</strong></td><td>下午斜射光柱 + <strong>悬浮的粉笔灰</strong>（全片唯一有可见尘埃漂浮的层）；黑板手写体；画面里永远有"他人的目光"（有人群、有被点名的风险）</td><td>粉笔在黑板上一声长划"吱——"，尾音带教室混响</td><td>椅子挪动声 / 走廊回声，混响拖长 1 秒</td></tr><tr><td><strong>穿越层</strong></td><td>纯黑虚空，无背景、无第二个人、无年代道具；<strong>单一顶光</strong>；画面边缘始终有极轻的扫描线与数字噪点（提示"这是生成的"）；只出现孔乙己 + 一把椅子 + 一件长衫</td><td>低频嗡鸣 40–60Hz 由弱渐强，生成完成时转为旧街市白噪音</td><td>数字爆音 → 生成窗口崩解噪点 → 硬切静音，只剩键盘声</td></tr><tr><td><strong>片尾落点</strong></td><td>全片唯一一段"没有人"的时间：空门口、空椅子、空课桌，午后日光很好；画面停止手持，全部固定</td><td>键盘声渐稀 → 一声木鱼（或更鼓），单音，不重复</td><td>键盘声最后一下，落在黑上</td></tr></tbody></table></div>
+<h3>三条硬规则</h3>
+<ol><li><strong>跨层必换光</strong>：现实层＝屏幕冷蓝（人工光）；课堂层＝斜射日光 + 灰尘；穿越层＝单一顶光。<strong>三层三种光，不许混。</strong></li><li><strong>跨层必换声音底噪</strong>：现实层＝环境；课堂层＝教室混响；穿越层＝低频嗡鸣。</li><li><strong>每段真实素材之后必须有林晚的反应镜头</strong>（反驳 / 沉默 / 划走 / 扣手机）。这既是叙事框架，也是立场缓冲。</li></ol>
+<hr>
+<h1>3 · 角色一致性锁定（生图 / 生视频前先钉死）</h1>
+<h2>通用前缀与负面词</h2>
+<pre><code>[V] 通用视觉前缀（全片每一镜开头，一字不改）
+masterpiece, best quality, 低饱和, 冬日午后暖灰与旧纸黄, 干净线条, 写实感插画, 无文字水印
+
+[N] 通用负面前缀（全片每一镜结尾）
+写实照片感, 3D渲染, 卡通Q版, 过曝, 人脸畸变, 多手多指, 肢体扭曲, 水印, 乱码文字, 高饱和, 霓虹</code></pre>
+<h2>角色固定段（只改三样：表情 / 动作 / 角度）</h2>
+<pre><code>[林晚]（一字不改，全片所有出场）
+21岁中国女大学生, 黑色齐肩直发中分, 灰色连帽羽绒服, 素颜, 眼下淡青,
+表情克制不外露, 指甲剪得很短
+可变：表情 / 手部动作 / 拍摄角度
+
+[孔乙己]（一字不改，取自原著外貌描写）
+清瘦中年男子, 身材高大, 青白脸色, 皱纹间常夹些伤痕, 一部乱蓬蓬的花白胡子,
+花白杂乱长发, 身穿一件洗得发白的长衫, 长衫又脏又破似乎十多年没有补也没有洗
+可变：表情 / 手部动作 / 拍摄角度</code></pre>
+<h2>一致性纪律</h2>
+<ul><li>全片只需严格维护 <strong>2 个角色</strong>的一致性：林晚、孔乙己。</li><li><strong>陈老师、小舟、阿哲一律用局部处理</strong>：手、背影、声音、手机屏幕上的头像。不生成完整正脸。</li><li>孔乙己<strong>只在穿越层出现，只穿一件衣服，只在一个光照条件下</strong>。不要为了好看给他加场景、加道具。</li><li>命名规范：<code>孔乙己的长衫_SC{场}_镜{号}_{角色}_{版本}.mp4</code></li></ul>
+<h2>全片场景数（成本控制）</h2>
+<p>只有 <strong>4 个实打实的场景</strong>：宿舍、教室、走廊公告栏、办公室门口。其余全是屏幕流、抽象生成与黑场。这是为 AI 生成量身压缩的。</p>
+<hr>
+<h1>4 · 正片 · SC01–SC16</h1>
+<hr>
+<h2>SC01 ｜ 0:00–0:45 ｜ 现实层-A</h2>
+<p><strong>内 · 宿舍 · 冬日午后 · 窗帘拉着</strong> <strong>画面形式</strong>：AI 漫剧（有实拍条件则实拍优先） <strong>人物</strong>：林晚；室友（只出声音与半个背影） <strong>本场变化</strong>：<strong>信息</strong>——观众自己读到"停止招生"那行字；<strong>认知</strong>——观众确认她把作业交给了机器，而她全程没有一次停顿。 <strong>视觉签名</strong>：屏幕冷蓝光从下方打脸 · 暖灰宿舍 · 印刷物入画 <strong>声音桥（进）</strong>：片头第一声键盘"嗒"，随后空调低频与走廊脚步渐入</p>
+<h3>动作 · 台词 · 字幕</h3>
+<p>键盘声。屏幕的光是屋里唯一光源。</p>
+<p>她把光标点进对话框，手指敲下去。屏幕上逐字浮现：</p>
+<blockquote><strong>林晚（打字）</strong>：请以鲁迅的笔法，续写孔乙己死前的最后一刻，800 字，要有时代批判深度。</blockquote>
+<p>回车。进度条走完。屏幕刷出一段文字：</p>
+<blockquote><strong>屏幕文字（AI 生成）</strong>：「雪落下来的时候，他终于看清了这个吃人的社会……」</blockquote>
+<p>她看了一眼。全选、复制、粘贴进文档、保存。<strong>中间没有任何停顿。</strong></p>
+<blockquote><strong>林晚（很轻，对着屏幕）</strong>：行了。</blockquote>
+<p>她往后一靠。椅子响。手机亮起，日历弹窗——</p>
+<blockquote><strong>手机字幕</strong>：写作课 · 下周一 · 续写作业</blockquote>
+<p>她盯着那行字看了两秒。手指没有离开键盘。</p>
+<p><strong>字幕层</strong>：无。（"停止招生"告示只以画面呈现，不做字幕，不做解说）</p>
+<h3>镜头表（可直接生视频）</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述（[V] [N] 已省略）</th></tr></thead><tbody><tr><td>1-1</td><td>6″</td><td>建立"这是冬天午后的宿舍，但没人开窗"</td><td>宿舍内景，窗帘拉死，只有一块显示器在发光；桌上摊着考研资料与一本全新的《戏文写作》；画面静止，只有屏幕光轻微跳动</td></tr><tr><td>1-2</td><td>7″</td><td>让观众自己读到那行字，不解说、不强调</td><td>桌上告示纸特写，只有半行字清晰可读：「戏剧影视文学专业 自 2026 年起停止招生」，其余被一杯水与书本压住，虚化</td></tr><tr><td>1-3</td><td>8″</td><td>建立"她把思考外包了"</td><td>键盘特写，手指敲击；对话框里文字逐字浮现；光标在末尾闪</td></tr><tr><td>1-4</td><td>6″</td><td>建立"对她来说这只是个动作"</td><td>林晚近景，屏幕冷蓝光从下方打在下巴与眼下；她复制、粘贴、保存，动作连贯熟练，脸上没有表情变化</td></tr><tr><td>1-5</td><td>5″</td><td>环境压力：别人的声音一直在响</td><td>宿舍另一角，室友背影，手机外放短视频的嘈杂声；画面轻微虚焦</td></tr><tr><td>1-6</td><td>8″</td><td>埋钩子：这一次不一样</td><td>手机屏幕特写，日历弹窗跳出「写作课 · 下周一 · 续写作业」；林的食指停在键盘上没抬起来</td></tr><tr><td>1-7</td><td>5″</td><td>转场桥</td><td>一声回车"嗒"，画面切黑，键盘声延续 0.5 秒后与教室粉笔声交叠</td></tr></tbody></table></div>
+<p><strong>声音</strong>：键盘声（片头第一声）；空调低频；短视频外放（模糊、听不清内容，只留"热闹"）；椅子吱呀。</p>
+<hr>
+<h2>SC02 ｜ 0:45–1:30 ｜ 现实层-A</h2>
+<p><strong>内 · 宿舍 · 接续 · 全段以她的屏幕与手机为画面主体</strong> <strong>画面形式</strong>：AI 生成 + UI 合成（屏幕录制质感） <strong>人物</strong>：林晚；小舟、阿哲（只以群聊消息与语音方式出现，无正脸） <strong>本场变化</strong>：<strong>情绪</strong>——从"资料很多"到"答案没有"；<strong>信息</strong>——全部宏观素材在本场一次性消化完毕。 <strong>视觉签名</strong>：屏幕录制质感 · 冷蓝光打脸 · 单个镜头不超过 6 秒 <strong>声音桥（进）</strong>：回车声尾音未散，环境被抽空 0.5 秒，随后是手指划屏的摩擦声</p>
+<h3>动作 · 台词 · 字幕</h3>
+<p>她开始找。屏幕快速流过（每条 3–6 秒）：</p>
+<p><strong>① 群聊（未读 99+），滚动</strong></p>
+<blockquote><strong>小舟</strong>：艺术与科技这课，教授从零教我们剪 vlog。<br><strong>阿哲</strong>：往年优秀案例全是科班生的片子，我们交上去算什么。<br><strong>小舟（语音，自动转文字）</strong>：最绝的是技术课老师，敲着桌子说——"你们看看，不是科班生，也用 AI 做出东西了。"<br><strong>阿哲</strong>：这句话我记一辈子。</blockquote>
+<p><strong>② 技术课片段（画中画，画面做过曝处理，人脸不可辨）</strong></p>
+<blockquote><strong>老师（画外，声音做过载处理）</strong>：……不是科班生，也用 AI 做出东西了。</blockquote>
+<p>她划走。</p>
+<p><strong>③ 教材资讯页（只出字幕条，不配音，不评论）</strong></p>
+<blockquote><strong>字幕条</strong>：《孔乙己》在现行教材中<strong>调整为选修 / 自读篇目</strong>，课时与篇目配比相应变化。<br><strong>角落小字</strong>：篇目结构调整，非"删除"。</blockquote>
+<p>她停了半秒，划走。</p>
+<p><strong>④ 学校公告（这一条她划得最快）</strong></p>
+<blockquote><strong>公告文件特写</strong>：关于 2026 年本科专业设置调整的通知 —— 戏剧影视文学专业停止招生<br><strong>文件小字</strong>：学校自主优化专业结构，报省教育厅备案</blockquote>
+<p><strong>⑤ 她自己的搜索记录</strong></p>
+<blockquote>孔乙己 死 那一刻 ／ 孔乙己 象征意义 ／ 长衫 议论文 800 字</blockquote>
+<p><strong>⑥ 新建空白文档。光标闪了很久。</strong></p>
+<blockquote><strong>林晚（对着空文档，很轻）</strong>：……他到底看见了什么。</blockquote>
+<p><strong>字幕层</strong>：</p>
+<ul><li>③ ④ 为<strong>事实字幕条</strong>，白底黑字，左上角，停留 4 秒，无配音、无评论。</li><li>④ 必须带小字"学校自主优化专业结构，报省教育厅备案"；③ 必须带小字"篇目结构调整，非删除"。<strong>这两行小字是合规防线，不许剪。</strong></li></ul>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>2-1</td><td>8″</td><td>水课吐槽一次到位，只留最锋利的一句</td><td>手机屏幕录制质感，群聊消息逐条向上滚动，手指不断下滑；冷蓝光打在下颌</td></tr><tr><td>2-2</td><td>6″</td><td>让那句金句扎一下</td><td>画中画横屏教学片段，画面过曝、人脸不可辨，只见一人敲桌子；声音过载失真</td></tr><tr><td>2-3</td><td>5″</td><td>教材事实：只给字幕，不评论</td><td>资讯页面 + 左上白底黑字字幕条；手指悬停在屏幕上停了半秒</td></tr><tr><td>2-4</td><td>5″</td><td>撤专业事实：她划得最快</td><td>学校公告文件特写，中文文字清晰可读；拇指一划，页面飞速滑走</td></tr><tr><td>2-5</td><td>8″</td><td>从"查资料"退化成"找标准答案"</td><td>搜索框特写，三条搜索记录依次出现、删除、再出现；光标闪烁</td></tr><tr><td>2-6</td><td>8″</td><td>困境落地：资料很多，答案没有</td><td>空白文档，光标闪；林晚近景，屏幕反光映在眼睛里，她嘴唇动了一下没出声</td></tr><tr><td>2-7</td><td>5″</td><td>转场桥：往课堂层走</td><td>手指离开键盘，画面轻微失焦；键盘声淡出，粉笔长划声从远处提前 0.5 秒进入</td></tr></tbody></table></div>
+<p><strong>声音</strong>：手指划屏摩擦声；群聊消息提示音（连续 3 声后静音）；消息转文字的电子音；鼠标点击。</p>
+<hr>
+<h2>SC03 ｜ 1:30–2:40 ｜ 课堂层-A</h2>
+<p><strong>内 · 写作课教室 · 下午 · 斜射光</strong> <strong>画面形式</strong>：AI 漫剧（建议实拍教室空镜 + AI 生成人物） <strong>人物</strong>：陈老师（50 上下，全程只露手、侧身与背影）、林晚、同学若干（只露后脑勺） <strong>本场变化</strong>：<strong>关系</strong>——老师把一道"不许用套话"的题砸给她；<strong>认知</strong>——她知道这次糊弄不过去了。 <strong>视觉签名</strong>：下午斜射光柱 · 悬浮粉笔灰 · 全片唯一有"他人目光"的层 <strong>声音桥（进）</strong>：粉笔在黑板上一声长划"吱——"，尾音带教室混响</p>
+<h3>动作 · 台词 · 字幕</h3>
+<p>粉笔声。陈老师在黑板上写下一行字：</p>
+<blockquote><strong>黑板</strong>：《孔乙己》· 续写 —— 他死前的那一刻</blockquote>
+<p>她转身，拍掉手上的粉笔灰。光柱里的灰尘在飘。</p>
+<blockquote><strong>陈老师</strong>：往年这道题，写得最多的是——孔乙己其实是个革命者，他的死是封建势力精心策划的政治谋杀。</blockquote>
+<p>台下有人笑。</p>
+<blockquote><strong>陈老师</strong>：写得都很热闹。</blockquote>
+<p>她拿起板擦，把那行字擦掉一半。</p>
+<blockquote><strong>陈老师</strong>：可我想说一句不太好听的话——<strong>孔乙己在那个时代，不值得那么被精心谋杀。</strong></blockquote>
+<p>教室安静下来。</p>
+<blockquote><strong>陈老师</strong>：没有人会为了杀他，费那么大的事。他是被随便地、潦草地、不值一提地用完的。</blockquote>
+<p>林晚在下面，手指停在手机屏幕上，没动。</p>
+<blockquote><strong>陈老师</strong>：所以这次只有一条要求——<strong>一页纸。不许写时代，不许写制度，不许写"吃人的社会"。</strong><br><strong>陈老师</strong>：就写那一个人。在他最后清醒的一分钟里，看见了什么。<br><strong>陈老师</strong>：下周交。手写也行，打印也行。</blockquote>
+<p>她停了一下，把教案合上。</p>
+<blockquote><strong>陈老师</strong>：但得是你写的。</blockquote>
+<p><strong>镜头切到林晚的脸。她没动。手指还压在手机上。</strong></p>
+<p><strong>字幕层</strong>：无。本场台词即字幕。</p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>3-1</td><td>8″</td><td>建立课堂层的光：斜射 + 灰尘</td><td>空教室，下午斜射光柱穿过窗户，粉笔灰在光里悬浮漂浮；黑板上已有半行手写粉笔字</td></tr><tr><td>3-2</td><td>10″</td><td>让禁令自己出现</td><td>黑板特写，一只手写下「《孔乙己》· 续写 —— 他死前的那一刻」；粉笔灰簌簌落下</td></tr><tr><td>3-3</td><td>12″</td><td>立老师：不下结论，只布置题目</td><td>陈老师中景，侧身站在光柱边缘，拍手上的粉笔灰，说话时不看学生，看向窗外</td></tr><tr><td>3-4</td><td>14″</td><td>核心台词：不值得那么被精心谋杀</td><td>陈老师近景（面部不转正，取 3/4 侧），板擦擦掉黑板上一半的字，声音在教室里有混响</td></tr><tr><td>3-5</td><td>12″</td><td>让禁令落到她头上</td><td>从陈老师过肩拍台下，一排排后脑勺；镜头缓缓推到林晚，她的手指压在手机屏幕上不动</td></tr><tr><td>3-6</td><td>9″</td><td>"得是你写的"——代价落地</td><td>林晚近景，睫毛动了一下，手指从手机上松开；屏幕暗下去</td></tr><tr><td>3-7</td><td>5″</td><td>转场桥：往现实层走</td><td>椅子挪动声四起，人群散开；林晚起身，画面切到她的背影走出教室门框</td></tr></tbody></table></div>
+<p><strong>声音</strong>：粉笔长划与顿挫；教室混响（空旷、有 0.8 秒残响）；椅子挪动；走廊回声。<strong>无音乐。</strong></p>
+<hr>
+<h2>SC04 ｜ 2:40–3:50 ｜ 现实层-B</h2>
+<p><strong>内 · 宿舍 · 夜 · 她开始找"别人怎么看这件事"</strong> <strong>画面形式</strong>：<strong>采访拼贴 + 字幕卡 + AI 生成抽象画面</strong>（三段真实素材统一归入她的播放列表） <strong>人物</strong>：林晚；余华、莫言 <strong>只出文字，不出肖像、不出人声</strong>；街采路人脸部做马赛克 / 过曝 <strong>本场变化</strong>：<strong>情绪 → 认知</strong>——往外找答案的路走不通；三个成年人用三种方式说了同一件事：回避。 <strong>视觉签名</strong>：抽象生成画面 · 无真实人脸 · 每段后必须有她的反应 <strong>声音桥（进）</strong>：走廊回声被抽空，一声视频播放键，随后是播放列表的低电平底噪</p>
+<h3>动作 · 台词 · 字幕</h3>
+<blockquote><strong>【字幕卡 · 采样 01】</strong>（黑底白字，停留 6 秒，无任何配音）<br>余华（2023 · 澳门城市大学公开答问 · <strong>据网络流传转述，未经逐字核实</strong>）<br>「让孔乙己不用脱长衫，就只能经济马上恢复、回到原来高速发展的轨道，否则没别的办法。」</blockquote>
+<p><strong>画面</strong>：不用肖像。抽象生成——一列高速行驶的列车，窗外倒退的风景逐渐失速、模糊、拉丝。</p>
+<p><strong>她的反应</strong>：她把进度条往回拖了两秒，又放了一遍。然后关掉。</p>
+<blockquote><strong>【字幕卡 · 采样 02】</strong>（黑底白字，停留 5 秒，无配音）<br>莫言（对谈 · <strong>网络片段</strong>）<br>「孔乙己不是我们村的，我不管这事。」</blockquote>
+<p><strong>画面</strong>：空村口，一只狗走过。没有人。</p>
+<p><strong>她的反应</strong>：她笑了一下。笑完就停了。</p>
+<blockquote><strong>【采样 03 · 街采拼贴】</strong>（竖屏 9:16 手机画幅，人脸马赛克 / 过曝处理）<br>「哎呀这个……」<br>「嗨，都差不多吧。」<br>「年轻人还是得务实一点。」</blockquote>
+<p><strong>画面</strong>：三段竖屏素材快速拼接，画面过曝，只见嘴形与肩膀，不可辨人。</p>
+<p><strong>她的反应</strong>：她把手机扣在桌上。屏幕朝下。</p>
+<p>她抬头看天花板。天花板上只有一块发黄的灯罩。</p>
+<blockquote><strong>林晚（对着天花板）</strong>：……等于没说。</blockquote>
+<p><strong>字幕层</strong>：</p>
+<ul><li>采样 01 / 02 为<strong>黑底白字字幕卡</strong>，来源标注与"未经逐字核实"字样<strong>必须出现在同一屏内</strong>，字号不小于正文的 70%。</li><li>采样 03 底部常驻一行小字：受访者画面已做不可辨识处理。</li></ul>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>4-1</td><td>8″</td><td>采样 01：列车与失速</td><td>抽象生成：高速列车车窗，窗外风景快速倒退并逐渐拉丝、失焦、变白；无人物</td></tr><tr><td>4-2</td><td>6″</td><td>她的反应：拖回去，再关掉</td><td>林晚近景，屏幕光映在眼里；手指把进度条往左拖两秒，停顿，然后按下关闭</td></tr><tr><td>4-3</td><td>7″</td><td>采样 02：空村口</td><td>抽象生成：空荡的村口，土路，一只狗从画面右侧走过，无人；日光偏白</td></tr><tr><td>4-4</td><td>5″</td><td>她的反应：笑一下，就停了</td><td>林晚近景，嘴角抬起又落下，眼睛没跟着笑</td></tr><tr><td>4-5</td><td>9″</td><td>采样 03：街采拼贴全在打哈哈</td><td>三段 9:16 竖屏素材快速切，画面过曝，只见嘴形与肩膀，人种不可辨；底噪有街道嘈杂</td></tr><tr><td>4-6</td><td>6″</td><td>她的反应：扣手机</td><td>手机被翻转扣在桌面，发出一声闷响；手指在桌面上敲了两下</td></tr><tr><td>4-7</td><td>9″</td><td>认知落地：等于没说</td><td>林晚仰脸看向天花板，天花板上只有一块发黄的灯罩；光很平</td></tr><tr><td>4-8</td><td>20″</td><td>转场桥：往穿越层走</td><td>她坐直，把笔记本拉过来，双手放在键盘上；低频嗡鸣从无到有渐渐升起，环境声被抽空</td></tr></tbody></table></div>
+<p><strong>声音</strong>：播放键电子音；列车行驶低频；村口风声与狗吠（很轻）；街道嘈杂底噪；手机扣桌闷响；低频嗡鸣由弱渐强。 <strong>合规硬要求</strong>：本场<strong>不生成任何在世公众人物的肖像、不克隆任何人声</strong>。余华、莫言仅以文字卡 + 来源降级标注 + 抽象空镜呈现。</p>
+<hr>
+<h2>SC05 ｜ 3:50–4:10 ｜ 穿越层</h2>
+<p><strong>内 · 生成空间（虚拟，非实拍场地） ｜ 无时间 ｜ 她的生成窗口</strong> <strong>画面形式</strong>：AI 生成（纯黑虚空，单一顶光） <strong>人物</strong>：林晚（只在窗内反射中出现）、孔乙己 <strong>本场变化</strong>：<strong>关系</strong>——她不再查资料，她开始造一个人来替她答。 <strong>视觉签名</strong>：纯黑虚空 · 单一顶光 · 画面边缘有极轻扫描线与数字噪点 <strong>声音桥（进）</strong>：一声回车落下，低频嗡鸣 40–60Hz 渐强，随后转为旧街市白噪音</p>
+<h3>动作 · 台词 · 字幕</h3>
+<p>她的手指敲下去。</p>
+<blockquote><strong>林晚（打字）</strong>：生成一个叫孔乙己的人。站着。穿着长衫。穷，识字，被人笑话。</blockquote>
+<p>屏幕开始出图。先是<strong>一团布的褶皱</strong>，然后是一双<strong>手</strong>（指甲缝里有墨），然后<strong>慢慢往上，是脸</strong>。</p>
+<p>低频嗡鸣转成很远的人群声、木门吱呀、碗碟碰撞——<strong>旧街市的白噪音</strong>。</p>
+<p>他睁开眼。环顾四周。什么都没有。</p>
+<blockquote><strong>孔乙己（看着虚空，极轻）</strong>：……这里是何处。</blockquote>
+<p><strong>字幕层</strong>：无。</p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>5-1</td><td>5″</td><td>建立"这是生成的，不是穿越"</td><td>笔记本屏幕特写，输入框里文字逐字浮现；回车键被按下，光标转为加载状态</td></tr><tr><td>5-2</td><td>5″</td><td>先出褶皱：不给人脸，先给布料</td><td>纯黑虚空中，一团洗得发白的粗布褶皱自下而上浮现，边缘带着轻微的数字噪点与扫描线</td></tr><tr><td>5-3</td><td>5″</td><td>再出手：指甲缝里有墨</td><td>一双青筋明显的手在虚空中垂下，指缝与指甲里有洗不掉的墨渍；顶光从头顶打下</td></tr><tr><td>5-4</td><td>5″</td><td>最后出脸：孔乙己的完整出场</td><td>[孔] 站在纯黑虚空中，单一顶光，青白脸色，皱纹间带伤痕，乱蓬蓬花白胡子与长发，长衫又脏又破；他缓缓睁眼，环顾四周，背景空无一物</td></tr></tbody></table></div>
+<p><strong>声音</strong>：回车声；低频嗡鸣 40–60Hz；极轻的电子噪点（生成感）；旧街市白噪音（远处人声、木门、碗碟）。</p>
+<hr>
+<h2>SC06 ｜ 4:10–5:10 ｜ 穿越层</h2>
+<p><strong>内 · 生成空间（虚拟） ｜ 接续 ｜ 无背景，只有孔乙己 + 一把空椅子</strong> <strong>画面形式</strong>：AI 生成（单冷光源，无背景，<strong>只出现孔乙己一人 + 一把空椅子</strong>） <strong>人物</strong>：孔乙己、林晚（声音来自画外；小舟语音为手机外放） <strong>本场变化</strong>：<strong>认知</strong>——她以为自己在访问一个古人，结果是古人在拆解她；<strong>情绪</strong>——从得意到被噎住。 <strong>视觉签名</strong>：同 SC05。椅子是穿越层唯一的道具，先空着。</p>
+<h3>动作 · 台词 · 字幕</h3>
+<blockquote><strong>林晚（画外）</strong>：现在是二〇二六年。<br><strong>孔乙己（皱眉）</strong>：二〇二六……是哪位皇帝的年号？<br><strong>林晚</strong>：没有皇帝了。<br><strong>孔乙己</strong>：没有皇帝，那你们考什么？<br><strong>林晚</strong>：考不完。高考、考研、考编。<br><strong>孔乙己（认真）</strong>：那总是有人考中的。<br><strong>林晚</strong>：……有吧。</blockquote>
+<p>她停了一下。然后往前坐了坐，声音抬高了。</p>
+<blockquote><strong>林晚</strong>：跟你说个东西。现在有个铁匣子，叫 GPT。你敲一句"给我个提纲"，它一秒就出来。<br><strong>孔乙己</strong>：铁匣子……会作文章？<br><strong>林晚</strong>：会。比我会。上周三门课的提纲都是它写的——那课我一次没去过。<br><strong>孔乙己</strong>：既是水课，为何还要？<br><strong>林晚</strong>：要毕业证。<br><strong>孔乙己（笑）</strong>：功名我考了一辈子，没考中。你们倒好，坐着就发。</blockquote>
+<p><strong>手机外放，小舟的语音自动播了出来。她没关。</strong></p>
+<blockquote><strong>小舟（语音）</strong>：晚晚，提示词发你了，"学术深刻风"那个，导师真看不出来。</blockquote>
+<blockquote><strong>孔乙己（看向声音的方向）</strong>：方才那"提示词"，可是"破题之语"？<br><strong>林晚</strong>：差不多。就是告诉它，你想让它装成什么人。<br><strong>孔乙己</strong>：昔日我等破题，是把自己读进去。你们破题，是把自己删出去。</blockquote>
+<p><strong>沉默。他低头看自己的袖子，又抬头。</strong></p>
+<blockquote><strong>林晚（打破沉默，有点硬撑）</strong>：我们也有长衫。只是不穿在身上。<br><strong>孔乙己</strong>：穿在何处？<br><strong>林晚</strong>：PPT 模板算一件，GPT 提纲算一件，API Key 算一件。水课毕业证——那件最厚。<br><strong>孔乙己</strong>：最厚的那件，可挡寒么？<br><strong>林晚</strong>：……挡不住。<br><strong>孔乙己</strong>：我这件也挡不住。那为何不脱？<br><strong>林晚</strong>：脱了就……</blockquote>
+<p><strong>她停住了。答不上来。</strong></p>
+<p>他笑了笑，笑容慢慢收了。</p>
+<blockquote><strong>孔乙己（低声）</strong>：明明德……明德不明，便有铁匣替人思。<br><strong>孔乙己（叹一口气）</strong>：可<strong>铁匣子若会写文章，还要孔乙己作甚。</strong></blockquote>
+<p><strong>字幕层</strong>：无。金句不打字幕，让它由人物说出来。</p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>6-1</td><td>10″</td><td>让他先"不懂"，建立半文半白的语感</td><td>[孔] 中景，站在顶光下，眉头皱起，双手在袖中；背景纯黑虚空，边缘有扫描线</td></tr><tr><td>6-2</td><td>11″</td><td>她得意地炫耀铁匣子</td><td>屏幕这一侧的笔记本边缘入画，键盘与手指；虚空中的 [孔] 微微前倾倾听</td></tr><tr><td>6-3</td><td>12″</td><td>水课 / 毕业证：他笑了，笑的是自己</td><td>[孔] 近景，先是困惑，随后缓缓笑开，笑纹里带苦；抬手摸了一下自己的长衫袖口</td></tr><tr><td>6-4</td><td>9″</td><td>"把自己删出去"——第一次刺中</td><td>[孔] 特写，眼睛抬起直视镜头方向，笑容收住；顶光在眼下投出阴影</td></tr><tr><td>6-5</td><td>9″</td><td>四件长衫：PPT / 提纲 / API Key / 毕业证</td><td>[孔] 中近景，低头看自己的袖子，再抬头；背景虚空中浮现一把空椅子（画面唯一道具）</td></tr><tr><td>6-6</td><td>9″</td><td>金句：铁匣子若会写文章</td><td>[孔] 近景，先低声念，再叹一口气；说完后虚空静了两秒，只有旧街市白噪音</td></tr></tbody></table></div>
+<p><strong>声音</strong>：低频嗡鸣底噪；旧街市白噪音（远）；小舟语音为手机外放音质（带压缩失真）；沉默处的静音要真静。</p>
+<hr>
+<h2>SC07 ｜ 5:10–6:10 ｜ 穿越层（转折）</h2>
+<p><strong>内 · 生成空间（虚拟） ｜ 接续 ｜ 长衫第一次离开他的身体</strong> <strong>画面形式</strong>：AI 生成 <strong>人物</strong>：孔乙己、林晚（画外音 + 手部入画） <strong>本场变化</strong>：<strong>关系反转</strong>——他不再被访问，他开始审她；<strong>认知</strong>——她从访问者变成被告。 <strong>视觉签名</strong>：长衫第一次离开他的身体。</p>
+<h3>动作 · 台词 · 字幕</h3>
+<p><strong>他第一次主动看向屏幕这一边。</strong></p>
+<blockquote><strong>孔乙己</strong>：你叫我来，是要我替你写什么？<br><strong>林晚（顿住）</strong>：……一篇作业。写你死前的那一刻。<br><strong>孔乙己</strong>：写出来，交上去，换什么？<br><strong>林晚</strong>：学分。<br><strong>孔乙己</strong>：换了学分呢？<br><strong>林晚</strong>：毕业。<br><strong>孔乙己</strong>：毕了业呢？<br><strong>林晚</strong>：……你别问了。<br><strong>孔乙己</strong>：答不出，还是不敢答？</blockquote>
+<p><strong>他没退。他慢慢把外袍脱下来——那是一件长衫——搭在旁边那把空椅子的椅背上。</strong></p>
+<blockquote><strong>孔乙己</strong>：我这件，我脱不下来。脱了，就没有别的穿。<br><strong>孔乙己</strong>：你们呢。你们脱不下的，是哪一件？</blockquote>
+<p>她没说话。</p>
+<blockquote><strong>孔乙己</strong>：你们笑我穿着它不肯脱。可你们那件比我这件还合身——<strong>自己都看不见。</strong></blockquote>
+<p><strong>沉默。他伸手，把椅背上的长衫往屏幕这边推了推。</strong></p>
+<blockquote><strong>孔乙己</strong>：穿上试试。<br><strong>林晚（往后靠）</strong>：我不要。<br><strong>孔乙己（平静）</strong>：你已经穿着了。</blockquote>
+<p><strong>停顿。</strong></p>
+<blockquote><strong>孔乙己</strong>：铁匣子会写文章——可它不会问你，为什么非要这篇文章。</blockquote>
+<p><strong>字幕层</strong>：无。</p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>7-1</td><td>12″</td><td>反转启动：他第一次主动提问</td><td>[孔] 中景，身体微微转向镜头方向，眼神第一次直视；背景空椅仍在</td></tr><tr><td>7-2</td><td>14″</td><td>学分→毕业→（答不出）：阶梯式逼问</td><td>[孔] 近景连续三次提问，节奏均匀，声音不高；镜头不动，只切他的嘴与眼</td></tr><tr><td>7-3</td><td>12″</td><td>脱衫：长衫第一次离开他的身体</td><td>[孔] 中景，缓慢解开长衫系带、脱下、转身搭在椅背上；里面是一件更旧的单衣</td></tr><tr><td>7-4</td><td>10″</td><td>"你们自己都看不见"</td><td>[孔] 近景，直视镜头方向说话；顶光下，脸上皱纹清晰</td></tr><tr><td>7-5</td><td>12″</td><td>递衫：把问题推到她这一侧</td><td>椅子与长衫特写，一只手把长衫往画面前方推；画面边缘扫描线加重</td></tr></tbody></table></div>
+<p><strong>声音</strong>：低频嗡鸣持续；长衫布料摩擦声（粗布，干涩）；椅子腿刮地的短促声；两次沉默处的静音。</p>
+<hr>
+<h2>SC08 ｜ 6:10–6:30 ｜ 穿越层（崩解）</h2>
+<p><strong>内 · 生成空间（虚拟） ｜ 接续 ｜ 窗口开始故障</strong> <strong>画面形式</strong>：AI 生成 + 数字故障处理 <strong>人物</strong>：孔乙己、林晚（手） <strong>本场变化</strong>：<strong>情绪</strong>——对峙结束，问题留在她手里。 <strong>视觉签名</strong>：生成窗口故障化：掉帧、噪点、色块撕裂。</p>
+<h3>动作 · 台词 · 字幕</h3>
+<p>画面开始掉帧。他的脸出现横向撕裂的色块，声音开始断续。</p>
+<blockquote><strong>孔乙己（断续）</strong>：你不是写不出我。<br><strong>孔乙己</strong>：你是……不敢写你自己。</blockquote>
+<p><strong>屏幕黑下去。</strong></p>
+<p><strong>只剩键盘声。她的手还放在键盘上，没有动。</strong></p>
+<p><strong>字幕层</strong>：无。</p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>8-1</td><td>8″</td><td>崩解开始：提示"这是会消失的"</td><td>[孔] 近景，画面出现横向撕裂色块与掉帧，边缘数字噪点加重，声音断续</td></tr><tr><td>8-2</td><td>7″</td><td>最后一句：把问题还给她</td><td>[孔] 面部特写，嘴在动，声音先于画面消失半秒；随后画面化为噪点云</td></tr><tr><td>8-3</td><td>5″</td><td>转场桥：回到现实层</td><td>屏幕全黑，只剩键盘声；黑场里能看到窗外冬日下午的光在窗帘后亮着</td></tr></tbody></table></div>
+<p><strong>声音</strong>：数字爆音 → 生成崩解噪点 → 硬切静音 → 只剩键盘声（机械轴，单键回弹）。</p>
+<hr>
+<h2>SC09 ｜ 6:30–7:02 ｜ 现实层-C</h2>
+<p><strong>内 · 教学楼大厅 · 白天 · 公告栏前</strong> <strong>画面形式</strong>：AI 漫剧 <strong>人物</strong>：林晚、两名新生（只露背影与半个侧脸） <strong>本场变化</strong>：<strong>情绪</strong>——她以为的"我的处境"，在别人眼里只是"一条新闻"。 <strong>视觉签名</strong>：平光的 institutional 照明 · 印刷物 · 他人的目光不在她身上 <strong>声音桥（进）</strong>：走廊脚步与远处上课铃，键盘声最后进来后淡出</p>
+<h3>动作 · 台词 · 字幕</h3>
+<p>公告栏前。她站在文件前面看。</p>
+<p><strong>文件特写，文字清晰可读</strong>：</p>
+<blockquote>关于 2026 年本科专业设置调整的通知<br>——戏剧影视文学专业停止招生<br>——（小字：学校自主优化专业结构，报省教育厅备案）</blockquote>
+<p>两个新生举着手机在旁边拍照。</p>
+<blockquote><strong>新生甲（兴奋）</strong>：哎，这个专业不招人了啊？<br><strong>新生乙</strong>：那我们转专业是不是更简单了。</blockquote>
+<p>两人笑着走了。</p>
+<p><strong>她没有跟任何人说话。她转身走了。</strong></p>
+<p><strong>字幕层</strong>：文件小字"学校自主优化专业结构，报省教育厅备案"必须在画面内清晰可读，停留 ≥3 秒。</p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>9-1</td><td>8″</td><td>让文件自己说话</td><td>公告栏玻璃后的文件特写，中文文字清晰可读，玻璃上有反光；平光，无情绪</td></tr><tr><td>9-2</td><td>10″</td><td>她站在自己的处境前面</td><td>林晚中景，站在公告栏前不动，脸被玻璃反光切了一半；旁边两个新生举手机拍照</td></tr><tr><td>9-3</td><td>8″</td><td>别人的一句话，比任何批判都冷</td><td>新生侧影，两人笑着说话走开；林晚仍在原地，视线没动</td></tr><tr><td>9-4</td><td>6″</td><td>转场：她走了</td><td>手持跟拍林晚走出画框，走廊尽头有冬日的斜光；脚步声放大</td></tr></tbody></table></div>
+<p><strong>声音</strong>：走廊脚步回响；手机快门声；远处上课铃；无音乐。</p>
+<hr>
+<h2>SC10 ｜ 7:02–7:30 ｜ 现实层-C（灵魂黑夜）</h2>
+<p><strong>内 · 教室 · 课间</strong> <strong>画面形式</strong>：AI 漫剧 <strong>人物</strong>：林晚 <strong>本场变化</strong>：<strong>情绪 / 价值</strong>——她失败了。她把 AI 写的那一页交了上去。 <strong>视觉签名</strong>：印刷物 · 平光 · 空调声是唯一的声音</p>
+<h3>动作 · 台词 · 字幕</h3>
+<p>她走到讲台前。作业已经摞了一叠。</p>
+<p>她把打印好的一页纸放上去。</p>
+<p><strong>特写：那一页纸最上面一行，是那句 AI 生成的——"雪落下来的时候，他终于看清了这个吃人的社会……"</strong></p>
+<p>她的手从纸上抽回来。</p>
+<p>她转身走了。</p>
+<p><strong>镜头留在那一摞作业上。她那一张，放在最上面。</strong></p>
+<p><strong>字幕层</strong>：无。</p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>10-1</td><td>8″</td><td>交出去这个动作，要轻描淡写</td><td>讲台上一摞打印作业，林晚的手从画外伸入，把一页 A4 纸放在最上面</td></tr><tr><td>10-2</td><td>8″</td><td>让观众看清她交了什么</td><td>A4 纸特写，第一行文字清晰可读：「雪落下来的时候，他终于看清了这个吃人的社会……」</td></tr><tr><td>10-3</td><td>6″</td><td>她的手抽回来</td><td>手部特写，指尖在纸边缘停顿了 0.5 秒，然后抽离画面</td></tr><tr><td>10-4</td><td>6″</td><td>转场桥：往课堂层走</td><td>固定镜头留在那摞作业上，最上面那张纸的角被风吹起一点；空调声持续</td></tr></tbody></table></div>
+<p><strong>声音</strong>：纸张摩擦；空调低频嗡鸣；走廊远处的人声。<strong>没有人戳穿她——这比被抓严重得多。</strong></p>
+<hr>
+<h2>SC11 ｜ 7:30–8:00 ｜ 课堂层-B</h2>
+<p><strong>内 · 宿舍 · 傍晚</strong> <strong>画面形式</strong>：AI 漫剧 <strong>人物</strong>：林晚 <strong>本场变化</strong>：<strong>情绪 → 行动</strong>——她开始删。 <strong>视觉签名</strong>：台灯暖光（第一次出现暖光）· 屏幕反光 · 手持 <strong>声音桥（进）</strong>：椅子挪动声 + 教室混响残响拖长 1 秒，随后是台灯开关"咔"</p>
+<h3>动作 · 台词 · 字幕</h3>
+<p>她打开那份文档。光标在开头闪。</p>
+<p>她开始删。</p>
+<p>一行。两行。全选——<strong>删除</strong>。</p>
+<p><strong>空白文档。只有一个光标。</strong></p>
+<blockquote><strong>林晚（很轻，对着空文档）</strong>：……</blockquote>
+<p><strong>字幕层</strong>：无。</p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>11-1</td><td>8″</td><td>回到起点</td><td>笔记本电脑屏幕特写，文档打开，第一段文字完整；台灯暖光从侧面照在键盘上</td></tr><tr><td>11-2</td><td>10″</td><td>删掉：动作要果断，不要犹豫戏</td><td>光标拖选，文字被逐段反白，按下删除；屏幕一块一块变白</td></tr><tr><td>11-3</td><td>7″</td><td>空白：全片第一个真正的空白</td><td>空白文档，只有一个黑色光标在闪；屏幕反光里能看到林晚的脸</td></tr><tr><td>11-4</td><td>5″</td><td>转场桥</td><td>她的手悬在键盘上，指节绷紧；键盘声停顿、断续</td></tr></tbody></table></div>
+<p><strong>声音</strong>：台灯开关"咔"；鼠标拖选；删除键一声；随后是<strong>停停顿顿的键盘声</strong>（与片头的连贯节奏形成对比）。</p>
+<hr>
+<h2>SC12 ｜ 8:00–8:40 ｜ 课堂层-B（结局动作）</h2>
+<p><strong>内 · 宿舍 · 夜</strong> <strong>画面形式</strong>：AI 漫剧 <strong>人物</strong>：林晚；小舟（只在手机消息里） <strong>本场变化</strong>：<strong>认知 → 价值</strong>——她写下了一个"不够深刻"的答案，并且坚持了它。 <strong>视觉签名</strong>：暖光台灯 · 屏幕反光映在眼里 · 最后一句才给文字特写</p>
+<h3>动作 · 台词 · 字幕</h3>
+<p>她开始打字。画面以她的脸与屏幕反光为主，正文不作正面展示。</p>
+<blockquote><strong>林晚（打字，一边念）</strong>：他最后清醒的那一分钟，没有看见社会。<br><strong>林晚</strong>：他看见自己中了第。<br><strong>林晚</strong>：明知道是假的，那一分钟，他不肯醒。</blockquote>
+<p><strong>她停下来。读了一遍。</strong></p>
+<blockquote><strong>林晚（皱眉，自言自语）</strong>：……这也太土了吧。</blockquote>
+<p><strong>她的手指移到删除键上，停住。三秒。然后，她把手拿开了。</strong></p>
+<p><strong>手机亮了一下。小舟的消息。</strong></p>
+<blockquote><strong>小舟</strong>：你真手写啊？AI 三分钟的事。</blockquote>
+<p><strong>她没回。她把手机翻过去，扣在桌上。</strong></p>
+<p>她又打了一行：</p>
+<blockquote><strong>林晚（打字）</strong>：这一页不是我查出来的，是我猜的。<br><strong>林晚</strong>：但这一页是我写的。</blockquote>
+<p><strong>特写：最后两行字停在屏幕上。</strong></p>
+<p>她打印。拿起那张纸，出门。</p>
+<p><strong>字幕层</strong>：无。</p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>12-1</td><td>10″</td><td>写：不给正文，只给她的脸与光</td><td>林晚近景，屏幕冷光与台灯暖光同时在脸上；她的嘴唇跟着默念轻微动</td></tr><tr><td>12-2</td><td>8″</td><td>自我怀疑：她停手了</td><td>林晚近景，皱眉，手指移到删除键上方停住；三秒静止</td></tr><tr><td>12-3</td><td>6″</td><td>坚持：手指拿开了</td><td>手部特写，手指从删除键上移开，重新落回字母键</td></tr><tr><td>12-4</td><td>8″</td><td>外部阻力：AI 三分钟的事</td><td>手机屏幕亮起，一条消息弹窗；林晚看了一眼，把手机翻面扣在桌上</td></tr><tr><td>12-5</td><td>8″</td><td>落款：这一页是我写的</td><td>屏幕特写，最后两行文字清晰可读；打印机出纸声从画外进入</td></tr></tbody></table></div>
+<p><strong>声音</strong>：停停顿顿的键盘声；手机消息提示音一声；纸张打印声；椅子挪动。</p>
+<hr>
+<h2>SC13 ｜ 8:40–9:00 ｜ 课堂层-B</h2>
+<p><strong>内 · 办公楼走廊 · 夜 · 陈老师办公室门口</strong> <strong>画面形式</strong>：AI 漫剧 <strong>人物</strong>：林晚（背影） <strong>本场变化</strong>：<strong>关系</strong>——她主动选择了会疼的那条路。 <strong>视觉签名</strong>：走廊顶灯 · 门缝透光 · 印刷物（那一页纸）</p>
+<h3>动作 · 台词 · 字幕</h3>
+<p>走廊尽头的灯坏了一盏，一闪一闪。</p>
+<p>她走到办公室门口。门关着，门缝底下有光。</p>
+<p>她蹲下，把那张纸从门缝塞进去。一半进去了，卡住。她用手指推了一下。</p>
+<p><strong>纸完全进去。</strong></p>
+<p>她站起来，转身。</p>
+<p><strong>镜头留在她的背影上。她走远。</strong></p>
+<p><strong>字幕层</strong>：无。</p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>13-1</td><td>7″</td><td>走廊：夜里的办公楼</td><td>空走廊，顶灯坏了一盏在闪，地面反光；尽头一扇门缝底下透出黄光</td></tr><tr><td>13-2</td><td>8″</td><td>塞进去：不敲门，不见面</td><td>林晚蹲身，手把一页 A4 纸塞进门缝；纸卡住，手指再推一下</td></tr><tr><td>13-3</td><td>5″</td><td>转场桥</td><td>固定镜头，林晚背影走远，走廊尽头灯光把她吞掉；脚步声渐远</td></tr></tbody></table></div>
+<p><strong>声音</strong>：坏灯管的电流"滋"声；纸张与地面摩擦；脚步声渐远。</p>
+<hr>
+<h2>SC14 ｜ 9:00–9:15 ｜ 课堂层-B</h2>
+<p><strong>内 · 陈老师办公室 · 夜</strong> <strong>画面形式</strong>：AI 漫剧（只露陈老师的手与半张脸） <strong>人物</strong>：陈老师 <strong>本场变化</strong>：<strong>情绪</strong>——全片唯一一次"被看见"。不给评价，只给动作。 <strong>视觉签名</strong>：台灯黄光 · 印刷物 · 静</p>
+<h3>动作 · 台词 · 字幕</h3>
+<p>门被推开一条缝。一张纸落在地上。</p>
+<p>陈老师弯腰捡起来。她走到桌前坐下，就着台灯读。</p>
+<p><strong>她读完了。她抬起头，看向门口的方向。门已经关了。</strong></p>
+<p><strong>她没有说话。她把那张纸抚平，放进抽屉里。</strong></p>
+<p><strong>字幕层</strong>：无。</p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>14-1</td><td>5″</td><td>捡起来</td><td>门缝底下的光被一张纸挡住；一只手推开门，弯腰把纸捡起</td></tr><tr><td>14-2</td><td>6″</td><td>读：不给反应，先不给</td><td>陈老师的手与半张脸，台灯黄光下，手持一页纸阅读；画面安静</td></tr><tr><td>14-3</td><td>4″</td><td>唯一的评价是一个动作</td><td>手把纸抚平，拉开抽屉，放进去，关上；镜头停在抽屉面上</td></tr></tbody></table></div>
+<p><strong>声音</strong>：门轴；纸张翻动；抽屉开合。<strong>全程无台词，无音乐。</strong></p>
+<hr>
+<h1>5 · 片尾主题落点（SC15–SC16）</h1>
+<blockquote>这一段落的<strong>唯一任务</strong>：把"主题"从论证变回一个下午。<br>全段<strong>没有新信息</strong>，没有旁白，没有人物台词（除了一条系统提示）。</blockquote>
+<hr>
+<h2>SC15 ｜ 9:15–9:37 ｜ 片尾落点</h2>
+<p><strong>外 / 内 混合 · 冬日午后 · 全片唯一一段"没有人"的时间</strong> <strong>画面形式</strong>：AI 生成 + 黑场字幕（建议以真实空镜实拍，成本最低效果最好） <strong>人物</strong>：无。一个人都没有。 <strong>本场变化</strong>：<strong>情绪</strong>——从"一个问题"回到"一个下午"。 <strong>视觉签名</strong>：画面停止手持，全部固定；午后日光很好；每个镜头里都有一件"人留下的东西"，但人不在。 <strong>声音桥（进）</strong>：键盘声渐稀，一声木鱼（或更鼓），单音，不重复。</p>
+<h3>画面序列（每段 4–6 秒，无台词，无旁白）</h3>
+<ol><li>咸亨酒店门口。午后。空的。日光很好。<strong>没有人。</strong></li><li>一张课桌。课本翻开在《孔乙己》那一页。页角卷了。</li><li>一把椅子。椅背上挂着一件长衫。<strong>旁边挂着一件灰色连帽羽绒服。同一个剪影。</strong></li><li>空椅子上的一块午后光斑。光斑在慢慢移动。</li></ol>
+<p><strong>字幕层</strong>：无。这一段一个字都不打。</p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>15-1</td><td>6″</td><td>空的咸亨：朝代退场</td><td>老式酒店门口，午后斜射日光，木质门板与柜台；门口空无一人，地上有干枯的落叶</td></tr><tr><td>15-2</td><td>5″</td><td>课本：课堂层退场</td><td>一张空课桌，课本翻开，页边卷起；日光从侧面打在纸面上，能看见纸的纤维</td></tr><tr><td>15-3</td><td>6″</td><td>两件衣服，同一个剪影</td><td>椅背上并排挂着一件洗得发白的长衫与一件灰色连帽羽绒服，剪影几乎重合；午后光从窗侧打来</td></tr><tr><td>15-4</td><td>5″</td><td>光斑：把"下午"这件事拍出来</td><td>空椅子与地面上的一块午后光斑，光斑缓慢移动；画面全静止，只有光在动</td></tr></tbody></table></div>
+<p><strong>声音</strong>：一声木鱼（或更鼓），单音，不重复；随后是极轻的室外环境（风、远处自行车铃）。<strong>无音乐。</strong></p>
+<hr>
+<h2>SC16 ｜ 9:37–10:00 ｜ 片尾落点（黑场金句 + 循环未关闭）</h2>
+<p><strong>黑场</strong> <strong>画面形式</strong>：黑场字幕 + 手机屏幕 <strong>人物</strong>：无（只有一只手） <strong>本场变化</strong>：<strong>认知</strong>——问题被交还给观众，循环不关闭。 <strong>声音桥（出）</strong>：键盘声最后一下，落在黑上。</p>
+<h3>画面序列</h3>
+<p><strong>① 黑场。白字逐行浮现（无旁白，无音乐）：</strong></p>
+<blockquote><strong>孔乙己从来没活在某个朝代。</strong><br><strong>他活在每一代人都觉得"书白读了"的那个下午。</strong></blockquote>
+<p>（停留 5 秒）</p>
+<p><strong>② 黑场继续。</strong></p>
+<p><strong>③ 黑场中央，一块手机屏幕亮起。</strong></p>
+<blockquote><strong>系统提示</strong>：检测到文档已完成。是否需要帮你润色？</blockquote>
+<p><strong>④ 一只手指悬在屏幕上方。</strong></p>
+<p><strong>⑤ 手指没有点下去。</strong></p>
+<p><strong>⑥ 黑。</strong></p>
+<p><strong>⑦ 键盘声：最后一下。停。</strong></p>
+<h3>镜头表</h3>
+<div class="tw"><table><thead><tr><th>镜</th><th>时长</th><th>意图</th><th>生成描述</th></tr></thead><tbody><tr><td>16-1</td><td>6″</td><td>金句由黑场带出，不由旁白说出</td><td>纯黑背景，白色宋体中文逐行淡入，居中；背后是一声极轻的键盘余音</td></tr><tr><td>16-2</td><td>4″</td><td>留白：让金句停住</td><td>黑场，白字静止不动，无声</td></tr><tr><td>16-3</td><td>7″</td><td>循环未关闭</td><td>全黑中，一块手机屏幕矩形亮起，白色系统提示文字；屏幕冷光在黑场中形成唯一光源</td></tr><tr><td>16-4</td><td>4″</td><td>问题交还给观众</td><td>手指悬停在屏幕上方约两厘米处，静止；指节微微绷紧</td></tr><tr><td>16-5</td><td>2″</td><td>收</td><td>全黑。键盘声最后一下"嗒"，然后彻底静止</td></tr></tbody></table></div>
+<p><strong>声音</strong>：黑场期间只有极轻的电流底噪；手机屏幕亮起时一声提示音；最后键盘声一记，然后静音 2 秒（不要提前切走）。</p>
+<hr>
+<h1>6 · 事实口径与合规清单（制作即合规）</h1>
+<h2>6.1 必须守住的表述</h2>
+<div class="tw"><table><thead><tr><th>议题</th><th>✅ 可以这么说</th><th>❌ 绝对不能这么说</th></tr></thead><tbody><tr><td>教材</td><td>《孔乙己》<strong>调整为选修 / 自读篇目</strong>，课时与篇目配比相应变化</td><td>"被踢出课本" / "被删除" / "被禁" / "教材移除鲁迅"</td></tr><tr><td>撤专业</td><td>学校<strong>自主优化专业结构</strong>，报<strong>省教育厅备案</strong></td><td>"教育部点名砍专业" / "教育部下令撤销" / "专业被砍"</td></tr></tbody></table></div>
+<p><strong>执行方式</strong>：这两条<strong>只以字幕条 / 公告文件特写出现</strong>（SC02 ③④、SC09），<strong>不作口播解说、不作评论</strong>。让画面自己说话，是最安全也最有力的处理。文件小字行必须在画面内清晰可读、停留 ≥3 秒、不得剪掉。</p>
+<h2>6.2 真实人物素材（高风险，逐条按此执行）</h2>
+<div class="tw"><table><thead><tr><th>素材</th><th>风险</th><th>处理方式</th></tr></thead><tbody><tr><td>余华（2023 澳门城市大学公开答问）</td><td>🔴 高</td><td><strong>仅用黑底白字字幕卡</strong>；同一屏内标注"据网络流传转述，未经逐字核实"；画面用抽象生成（失速列车）。<strong>不生成肖像、不克隆人声。</strong></td></tr><tr><td>莫言（对谈 / 网络片段）</td><td>🔴 高</td><td><strong>仅用黑底白字字幕卡</strong>；标注"对谈 · 网络片段"；画面用空镜（空村口）。<strong>不生成肖像、不克隆人声。</strong></td></tr><tr><td>街采路人</td><td>🟡 中</td><td>人脸<strong>马赛克 / 过曝 / 剪影</strong>处理，画面底部常驻"受访者画面已做不可辨识处理"。自行拍摄需取得口头同意；网络素材需确认来源授权。</td></tr></tbody></table></div>
+<p><strong>三条硬规则</strong></p>
+<ol><li><strong>在世公众人物：不生成肖像、不克隆声音。</strong> 这是全片最可能被判定为深度伪造、最可能被下架的一环。</li><li><strong>引语一律降级为"据网络流传转述"</strong>，不得作为精确直接引语呈现。</li><li><strong>每段真实素材之后必须有林晚的反应镜头</strong>（反驳 / 沉默 / 划走 / 扣手机）。</li></ol>
+<h2>6.3 虚构声明与署名</h2>
+<p>建议在片尾黑场金句之前加一行（停留 3 秒）：</p>
+<blockquote>本片人物、学校、情节均为虚构。所引社会议题均基于公开信息，不代表任何机构立场。</blockquote>
+<p><strong>AIGC 标识建议</strong>（依据 2026-09-01 施行的《微短剧发展管理办法》）：片头右下角常驻一行小字——「本作品部分画面由人工智能技术生成」。</p>
+<hr>
+<h1>7 · 生视频执行备忘</h1>
+<h2>7.1 镜头总量与拆分</h2>
+<ul><li>全片 <strong>16 场 / 79 个镜头</strong>。</li><li>AI 视频单次生成以 <strong>4 秒</strong>为基准单位：79 镜（平均 7.6″/镜）≈ <strong>160–180 条生成片段</strong>。</li><li><strong>SC01–SC02 与 SC04（现实层屏幕流与采样蒙太奇）几乎不需要人物生成，是全片性价比最高的两段</strong>，可优先生成、可适当加长。</li><li><strong>SC05–SC08（穿越层，2′40″）是全片最贵的一段</strong>。建议：一次生成 8 秒长镜头 + 局部（手 / 嘴 / 眼）补拍，而非逐句分镜。</li></ul>
+<h2>7.2 人物一致性（最大风险点）</h2>
+<ul><li>只需严格维护 <strong>2 个角色</strong>：林晚、孔乙己。</li><li>孔乙己<strong>只在穿越层出现、只穿一件衣服、只在一个光照条件下</strong>。这是保证一致性的设计前提。</li><li>林晚采用「同一件灰色连帽羽绒服 + 同一发型 + 固定景别（中近景 / 过肩）」的组合约束。</li><li>陈老师、小舟、阿哲：手、背影、声音、手机头像。<strong>不生成正脸。</strong></li></ul>
+<h2>7.3 声音设计（比画面更重要）</h2>
+<ul><li><strong>贯穿音</strong>：键盘声。片头第一声起（SC01），片尾最后一声停（SC16），所有层间转场用它缝合。</li><li><strong>生成音</strong>：低频嗡鸣 40–60Hz → 旧街市白噪音 → 崩解数字噪点。</li><li><strong>不用配乐</strong>，只在 SC15 用一声木鱼（或更鼓）。<strong>沉默是这部片的语气。</strong></li><li><strong>先配音，后定时长</strong>：根据音频时长反推每格时长，不要先切画面再硬贴声音。</li></ul>
+<h2>7.4 节奏自检</h2>
+<ul><li>前 90 秒必须出现"作业"这个具体任务 → SC01 已完成。</li><li>SC06–SC07 是全片唯一允许长对话的段落：<strong>42 句 / 471 字 / 约 109 秒</strong>（林晚口语按 5.5 字/秒、孔乙己半文半白按 4 字/秒估算），余 <strong>11 秒</strong>全部留给三处静默（"有吧"后、"删出去"后、"我已经穿着了"后）。<strong>这三处静默不许填音乐。</strong></li><li>剪辑时若超时，优先砍 SC06 的"水课 / 毕业证"吐槽段，<strong>保 SC07 的递衫与反问</strong>。</li><li>结尾 45 秒<strong>不出现任何新信息</strong>。</li><li>每一镜删掉之后自问：观众会损失什么信息或情绪？答不出就是废镜。</li></ul>
+<hr>
+<h1>8 · 一页纸总览（贴在墙上用）</h1>
+<pre><code>主题  孔乙己没活在某个朝代，他活在每一代人觉得&quot;书白读了&quot;的那个下午
+三层  现实层 3&#x27;40&quot; ｜ 课堂层 2&#x27;55&quot; ｜ 穿越层 2&#x27;40&quot; ｜ 片尾落点 0&#x27;45&quot;
+脊骨  课堂作业：一页纸，写他死前的那一刻，&quot;得是你写的&quot;
+欲望  交出这一页
+阻力  她写不出——因为不敢写自己
+代价  承认自己也是靠铁匣子的人
+转折  孔乙己脱下长衫反问：&quot;你们脱不下的，是哪一件？&quot;
+金句  &quot;铁匣子若会写文章，还要孔乙己作甚。&quot;
+结局  删掉 AI 稿，手写&quot;临死晕乎看见自己中第&quot;，从门缝塞进去
+落点  空的午后 + 黑场金句 + 手机弹出&quot;是否需要帮你润色？&quot;，手指没点下去
+讽刺  长衫 → PPT 模板 / GPT 提纲 / API Key / 水课毕业证
+红线  教材只说&quot;配比变化&quot;；撤专业只说&quot;自主优化+省级备案&quot;；
+      余华莫言只做字幕采样，无肖像无人声</code></pre>
+<hr>
+<hr>
+<h1>9 · 版本记录</h1>
+<h2>v1.1（本次）</h2>
+<ol><li>新增 <strong>1.5 场头元数据总表</strong>：16 场的内/外、时间、地点、画面形式、出镜人物、画外音 VO、字幕层一屏查全，进分镜前先过一遍。</li><li>补齐 SC05–SC08（穿越层）缺失的<strong>内/外标记</strong>，统一为「内 · 虚拟生成空间」，并说明这不是实拍场地。</li><li>明确<strong>画外音层归属</strong>：林晚在穿越层全程走画外（SC06 提问 / SC07 作答），小舟语音走手机外放，陈老师、阿哲一律只出声音不出脸——共 5 个角色，只有 2 个需要维护画面一致性。</li><li>未改动任何时间码、场次、台词与金句。<strong>时长合计仍为 600 秒整，16 场 / 79 镜不变。</strong></li></ol>
+<h2>v1.0</h2>
+<p>由《V2 穿越版 · 诊断与拍摄本》重写为可进生视频流程的制作本：三层归层、层语法（视觉签名 + 声音桥）、角色一致性固定 Prompt 段、逐镜意图与生成描述、合规清单、生视频执行备忘。</p>
+<hr>
+<p><em>制作本 v1.1 · 场号从 SC01 起，逐镜可进分镜 / 生视频流程。</em></p></div></body></html>
